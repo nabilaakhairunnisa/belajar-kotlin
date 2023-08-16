@@ -1,3 +1,4 @@
+/*
 fun main() {
     val city1 = "Ankara"
     val city2 = "Tokyo"
@@ -28,4 +29,21 @@ fun main() {
 
 fun weather(city: String, lowTemperature: Int, highTemperature: Int, chanceOfRain: Int): String {
     return "$city $lowTemperature $highTemperature $chanceOfRain"
+}
+*/
+
+//Kode di atas bisa kita sederhanakan menjadi seperti di bawah ini:
+
+fun main() {
+    weather("Ankara", 27, 31, 82)
+    weather("Tokyo", 32, 36, 10)
+    weather("Cape Town", 59, 64, 2)
+    weather("Guatemala City", 50, 55, 7)
+}
+
+fun weather(city: String, lowTemperature: Int, highTemperature: Int, chanceOfRain: Int) {
+    println("City: $city")
+    println("Low temperature: $lowTemperature, High temperature: $highTemperature")
+    println("Chance of rain: $chanceOfRain%")
+    println()
 }
