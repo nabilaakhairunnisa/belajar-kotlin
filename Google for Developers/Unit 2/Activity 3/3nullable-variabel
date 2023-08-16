@@ -1,0 +1,23 @@
+//fun main() {
+//    var favoriteActor: String = "Sandra Oh"
+//    favoriteActor = null
+//
+//    //Error:
+//    //Null can not be a value of a non-null type String
+//
+//    //Kalo variabel itu gak dideklarasiin sebagai nullable variable, maka dia akan erro
+//}
+
+fun main() {
+    var favoriteActor: String? = "Sandra Oh"
+    println(favoriteActor)
+
+    favoriteActor = null
+    println(favoriteActor)
+
+    //Output:
+    //Sandra Oh
+    //null
+
+    //String? menandakan kalo variabel favoriteActor adalah nullable var
+}
