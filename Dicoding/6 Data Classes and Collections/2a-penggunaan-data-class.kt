@@ -9,7 +9,7 @@ class User3(val name : String, val age : Int){
 }
  
 fun main(){
-	  println(User1("nrohmen", 17))
+    println(User1("nrohmen", 17))
     println(User2("nrohmen", 17))
     println(User3("nrohmen", 17))
 }
