@@ -20,7 +20,7 @@ User1@7291c18f
 User2(name=nrohmen, age=17)
 name=nrohmen, age=17
 
-Kelas User merupakan kelas biasa, sehingga menghasilkan memory address kelas tersebut, bukan nilainya langsung.
+Kelas User1 merupakan kelas biasa, sehingga menghasilkan memory address kelas tersebut, bukan nilainya langsung.
 Jika ingin mencetak nilainya, maka harus menggunakan fungsi toString() seperti kelas User3
-Sedangkan data class sudah otomatis menghasilkan fungsi toString, sehingga langsung mencetak nilai yang diberikan.
+Sedangkan data class sudah otomatis menghasilkan fungsi toString(), sehingga langsung mencetak nilai yang diberikan.
 */
