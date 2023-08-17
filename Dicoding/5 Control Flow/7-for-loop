@@ -1,0 +1,11 @@
+fun main() {
+    val ranges = 1..5
+    for (i in ranges){
+        println("value is $i!")
+    }
+}
+
+/*
+Tidak seperti bahasa C, di Kotlin kita gak perlu deklarasiin i
+Dia udah otomatis tau kalo itu adalah variabel untuk iterasi
+*/
