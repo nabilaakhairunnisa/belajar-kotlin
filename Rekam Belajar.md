@@ -5,7 +5,7 @@
 2. perulangan for
 3. rangeTo downTo
 4. forEach indexed
-5 break and continue
+5. break and continue
 6. data class toString
 7. data class copy
 8. data class equals
