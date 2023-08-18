@@ -15,3 +15,4 @@
 2. collection list
 3. collection set
 4. collection map
+5. collection dan fungsi operasi
