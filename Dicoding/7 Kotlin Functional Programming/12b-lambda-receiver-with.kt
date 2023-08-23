@@ -3,7 +3,7 @@
 fun main() {
     
     val message = "Nabila " //declare a variable message 
-    val result = with(message) { //declare a variable result, call a with function and use a message variable for the arguemen
+    val result = with(message) { //use the with function to access the context (which is message) within a lambda block.
         //this is a lambda function block
         println("value is $this") 
         println("with length ${this.length}")
