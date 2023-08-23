@@ -17,6 +17,12 @@
 4. collection map
 5. collection dan fungsi operasi
 
+### **Sunday, 20, August 2023**
+1. variable argument
+2. extension
+3. nullable receiver
+4. function type
+
 ### **Tuesday, 22 August 2023**
 1. lambda function
    - anonymous function, don't have a name, use -> to seperate parameter and body 
