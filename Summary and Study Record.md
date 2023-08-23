@@ -39,3 +39,5 @@
    - to analyze and configure objects in more concise and readable way. create an object and access an 'apply' extension directly to use some method from the object
 3. lambda argument let
    - often used with nullabel object. let only executes when the object was not null
+4. lambda argument also
+   - use the object's context as an argument within the lambda block without configure or modify the object itself
