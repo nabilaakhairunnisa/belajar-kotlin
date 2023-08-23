@@ -1,4 +1,4 @@
-//apply: 
+//apply: to analyze and configure objects in more concise and readable way
 
 fun main() {
     //if we don't use apply:
