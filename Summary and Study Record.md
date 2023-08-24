@@ -47,3 +47,21 @@
    - often used with nullabel object. let only executes when the object was not null
 4. lambda argument also
    - use the object's context as an argument within the lambda block without configure or modify the object itself
+  
+### **Thursday, 24 August 2023**
+1. property reference
+   - use operator reference function (::) bisa menaruh fungsi sebagai argumen pada fungsi lain. misalnya fungsi filter 
+2. function inside function
+    - bisa membuat fungsi di dalam fungsi dan menggunakan parameter fungsi luar untuk fungsi dalam
+3. fold
+     - menambahkan parameter dengan setiap elemen
+4. drop
+    - membuang elemen
+5. take
+    - mengambil elemen
+6. slice 
+    - menyaring elemen berdasarkan range
+7. distinct
+    - menyaring elemen yang sama
+8. chunked
+    - memecah karakter menjadi beberapa bagian
