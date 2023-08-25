@@ -65,3 +65,23 @@
     - menyaring elemen yang sama
 8. chunked
     - memecah karakter menjadi beberapa bagian
+
+### **Friday, 25 August 2023**
+1. recursion
+    - memanggil fungsi di dalam fungsi itu sendiri
+2. oop
+    - includes class, attributes, function, and object
+3. property delegation
+    - mengatur dan mengelola fungsi get set agar tidak mengulang-ulang kode pada setiap kelas
+4.  extension properties
+    - extends kelas tanpa harus mewarisi kelasnya
+6.  primary constructor
+    - memungkinkan kita untuk menginisialisasi properti pada parameter
+7. block init
+    - menuliskan properti dalam body dan menambahkan logic baru
+8. secondary constructor
+    - sama seperti blok init, namun bisa menambahkan parameter baru
+9. modifiers
+    - hak akses suatu anggota
+10. inheritances
+    - pewarisan
