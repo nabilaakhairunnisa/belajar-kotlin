@@ -1,4 +1,4 @@
-//Recrusion Call: memanggil fungsi di dalam fungsi itu sendiri
+//Recursion Call: memanggil fungsi di dalam fungsi itu sendiri
 
 fun main() {
   println("Faktorial dari 5 adalah ${Factorial(5)}")
