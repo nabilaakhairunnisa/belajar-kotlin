@@ -1,6 +1,5 @@
-//Untuk menginisialisasi kelas
-
-//Pemanggilannya: paggil primary constructor dan menyediakan argumen yang sesuai dengan primary constructor
+//Sama seperti init, secondary constructor digunakan untuk menambahkan logic baru
+//Dalam sebuah kelas bisa terdapat lebih dari satu secondary constructor
 
 class Animal(name: String, weight: Double, age: Int) {
     val name: String
@@ -14,7 +13,8 @@ class Animal(name: String, weight: Double, age: Int) {
         this.name = name
         this.isMammal = false
     }
- 
+
+    //ini merupakan secondary constructor yang memanggil primary constructor dan menambahkan parameter baru yaitu isMammal
     constructor(name: String, weight: Double, age: Int, isMammal: Boolean) : this(name, weight, age) {
         this.isMammal = isMammal
     }
@@ -29,7 +29,7 @@ fun main() {
 }
  
 /*
-output:
+    Output:
     Nama: Dicoding Miaw, Berat: 2.5, Umur: 2, mamalia: true
     Nama: Dicoding tweet, Berat: 0.5, Umur: 1, mamalia: false
 */
