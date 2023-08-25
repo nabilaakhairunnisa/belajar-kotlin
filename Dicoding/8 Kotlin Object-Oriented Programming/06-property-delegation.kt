@@ -1,11 +1,14 @@
 //Delegate: kelas yang mengatur dan mengelola fungsi get set untuk property class
+//Jika memiliki 3 buah kelas yang memerlukan fungsi get set, maka gunakan property delegation untuk meminimalisir kode
+//Kita tidak perlu mengulang-ulang fungsi get set pada setiap kelas. Cukup panggil kelas Delegation saja.
 
 //Cara buat class delegate
 import kotlin.reflect.KProperty
 
 class DelegateName {
-  private var value: String = "Default"
+  private var value: String = "Default" //ini menentukan nilai awal
 
+  //ini untuk mengambi nilai
   operator fun getValue(classRef: Any?, property: KProperty<*>): String {
     println("Fungsi ini sama seperti getter untuk properti ${property.name} pada kelas $classRef")
     return value
@@ -19,4 +22,29 @@ class DelegateName {
   }
 }
 
-    
+class Animal {
+  var name: String by DelegateName() //dengan begini, properti name dikelola melalui delegate
+}
+
+class Person {
+  var name: String by DelegateName()
+}
+
+class Hero {
+  var name: String by DelegateName()
+}
+  
+fun main() {
+  val animal = Animal()
+  animal.name = "Dicoding Miaw"
+  println("Nama Hewan: ${animal.name}\n")
+
+  val person = Person()
+  person.name = "Dimas"
+  println("Nama Orang: ${person.name}\n")
+
+  val hero = Hero()
+  hero.name = "Gatotkaca"
+  println("Nama Hero: ${hero.name}\n")
+}
+  
