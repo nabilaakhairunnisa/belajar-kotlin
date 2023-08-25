@@ -11,8 +11,8 @@ fun Factorial(n: Int): Int {
 }
 
 //Tail Call Recursion: 
-//  sekumpulan urutan untuk menjalankan tugas tertentu 
-//  diojalankan terakhir
+  //pemanggilan rekrusif merupakan pernyataan terakhir dalam fungsi
+  //hasil dari pemanggilan rekrusif langsung dikembalikan tanpa melakukan operasi tambahan
 
 fun FactorialTailCall(n: Int, result: Int = 1): Int {
   val newResult = n * result //mengalikan kedua parameter fungsi 
@@ -20,4 +20,6 @@ fun FactorialTailCall(n: Int, result: Int = 1): Int {
     newResult
   } else {
     Factorial(n - 1, newResult) 
+  }
+}
 
