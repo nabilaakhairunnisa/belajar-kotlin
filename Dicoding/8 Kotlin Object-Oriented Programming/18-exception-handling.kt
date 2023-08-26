@@ -1,6 +1,8 @@
+import kotlin.NumberFormatException
 fun main() {
   TryCatch()
   TryCatchFinally()
+  MultipleCatch()
 }
 
 fun TryCatch() {
@@ -35,10 +37,30 @@ fun TryCatchFinally() {
     println("Program berlanjut setelah blok try-catch-finally")
 }
 
-import kotlin.NumberFormatException
+
 
 fun MultipleCatch() {
-  val someString
+  val someStringValue: String? = null
+  var someIntValue: Int = 0
+
+  try {
+    someIntValue = someStringValue!!.toInt() //mangubah string menjadi int dan mennyimpannya ke dalam variabel someIntValue
+  } catch (e: NullPointerException) {
+    someIntValue = 0 //jika terjadi error, ubah nilai someIntValuemenjadi 0
+  } catch (e: NumberFormatException) {
+    someIntValue = -1 //jika terjadi kesalahan dalam format, maka ubah nilai someIntValuemenjadi -1
+  } finally {
+    when(someIntValue) {
+      //ketika someIntValue bernilai 0, maka:
+      0 -> println("Catch block NullPointerException terpanggil !") 
+      //ketika someIntValue bernilai -1, maka:
+      -1 -> println("Catch block NumberFormatException terpanggil !")
+      //jika tidak terjadi exception
+      else -> println(someIntValue)
+    }
+  }
+}
+      
 
 
 
