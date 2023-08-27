@@ -85,3 +85,21 @@
     - hak akses suatu anggota
 10. inheritances
     - pewarisan
+
+### **Saturday, 26 August 2023**
+1. overloading
+    - beberapa fungsi dengan naman yang sama namun parameternya berbeda
+2. abstract class
+    - kelas yang tidak bisa langsung direalisasikan sebagai objek
+3. interfaces
+    - blueprint yang mendefinisikan fungsi dan properti yang nantinya diimplementasikan oleh kelas lain.
+4. anonymous class
+    - kelas tanpa nama, langsung didefinisikan di fun main() menggunakan keyword object
+5. package
+    - pengelompokkan kelas, fungsi, dan variabel yang mempunyai kemiripan fungsionalitas
+6. create new package
+    - menggunakan intellij, lalu new package
+7. exception
+    - kesalahan pada kode
+8. exception handling
+    - cara meng-handle exception. ada try-catch, try-catch-finally, dan multiple catch 
