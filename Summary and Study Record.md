@@ -12,10 +12,12 @@
 
 ### **Friday, 18 August 2023**
 1. data class componentN()
-2. collection list
-3. collection set
-4. collection map
-5. collection dan fungsi operasi
+2. collection
+   - bagaimana kita menyimpan beberapa nilai
+4. collection list
+5. collection set
+6. collection map
+7. collection dan fungsi operasi
 
 ### **Sunday, 20, August 2023**
 1. variable argument
@@ -102,4 +104,12 @@
 7. exception
     - kesalahan pada kode
 8. exception handling
-    - cara meng-handle exception. ada try-catch, try-catch-finally, dan multiple catch 
+    - cara meng-handle exception. ada try-catch, try-catch-finally, dan multiple catch
+
+### **Sunday, 27 August 2023**
+1. class generics declaration
+    - class NamaKelas<T>(parameter: T)
+3. function generics declaration
+    - fun <T> namaFungsi(parameter: T): T
+
+
