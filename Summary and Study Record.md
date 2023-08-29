@@ -112,4 +112,34 @@
 3. function generics declaration
     - fun <T> namaFungsi(parameter: T): T
 
+### **Monday, 28 August 2023**
+1. variance
+    - dengan variance kita dapat memastikan bahwa tipe data dari kelas turunan merupakan sub tipe data dari superclassnya.
+    - covariant (out): tipe parameter hanya bisa dijadikan sebagai tipe return
+    - contravariant (in): tipe parameter bisa digunakan sebagai tipe argumen
+2. concurrency
+    - beberapa thread yang dijalankan oleh satu core
+3. pararellism
+    - beberapa thread yang dijalankan oleh dua atau lebih core
+4. process
+    - terdiri dari beberapa thread
+5. thread
+    - serangkaian instruksi untuk dijalankan 
+6. i/o-bound
+    - perangkat I/O mempengaruhi kemacetan suatu aplikasi
+7. deadlocks
+    - sebuah kondisi di mana dua proses atau lebih saling menunggu proses yang lain untuk melepaskan resource yang sedang digunakan.
+8. livelocks
+    - beberapa proses yang mencoba keluar dari situasi deadlock namun waktu yang tidak tepat menghalanginya
+9. starvation
+    - sebuah proses kekurangan sumber daya sehingga mengalami starvation atau kelaparan
+10. race conditions
+    - banyak thread yang mengakses dan mengubah data secara bersamaan
+11. coroutines
+    - terdapat fungsi launch, runBlocking, async
+12. job
+    - hasil dari perintah async
+13. Extension
+    - yang sebelum fungsi ditaro tipedata.
+
 
